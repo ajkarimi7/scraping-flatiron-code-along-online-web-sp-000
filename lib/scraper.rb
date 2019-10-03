@@ -16,7 +16,7 @@ class Scraper
     end
   end
   
-  doc = 
+  doc = NOKOGIRI::HTML
   
 end
 
