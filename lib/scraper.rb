@@ -44,6 +44,9 @@ title of an individual course offering:
 doc.css(".post").first.css("h2").text
 
 Schedule of individual course offering:
+doc.css(".post").first.css(".date").text
+
+Description of individual course offering:
 
 
 
