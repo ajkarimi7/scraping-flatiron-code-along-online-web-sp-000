@@ -35,6 +35,11 @@ end
 Scraper.new.get_page
 
 Page itself: 
+doc = Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
+
+Collection of course offerings: 
+
+
 
 doc.css(".post").first.css("h2").text
 
