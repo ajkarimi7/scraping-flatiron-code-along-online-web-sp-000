@@ -47,7 +47,7 @@ class Scraper
     Course.all.each do |course|
       if course.title && course.title != ""
         puts "Title: #{course.title}"
-        puts 
+        puts " Schedule: #{"
       
 end
 
