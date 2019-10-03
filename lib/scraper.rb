@@ -16,7 +16,8 @@ class Scraper
     end
   end
   
-  html = open()
+  html = open(http://learn-co-curriculum.github.io/site-for-scraping/courses)
+  
   doc = NOKOGIRI::HTML()
   
 end
