@@ -38,6 +38,9 @@ Page itself:
 doc = Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
 
 Collection of course offerings: 
+doc.css(".post")
+
+title of an individual course offering:
 
 
 
