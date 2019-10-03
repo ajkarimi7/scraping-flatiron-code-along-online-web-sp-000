@@ -41,6 +41,9 @@ Collection of course offerings:
 doc.css(".post")
 
 title of an individual course offering:
+doc.css(".post").first.css("h2").text
+
+Schedule of individual course offering:
 
 
 
