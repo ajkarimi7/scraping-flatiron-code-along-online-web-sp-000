@@ -16,7 +16,7 @@ class Scraper
     end
   end
   
-  html = open 
+  html = open()
   doc = NOKOGIRI::HTML()
   
 end
