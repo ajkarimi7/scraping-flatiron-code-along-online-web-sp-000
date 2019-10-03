@@ -27,38 +27,11 @@ class Scraper
       course.schedule = post.css(".date").text
       course.description = post.css("p").text
     end 
-    binding.pry
+    
   end 
-  
-  # def get_courses
-  #   html = open("http://learn-co-curriculum.github.io/site-for-scraping/courses")
-  #   doc = Nokogiri::HTML(html)
-  # end 
     
   
 end
 
 Scraper.new.get_page
 
-Page itself: 
-doc = Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
-
-Collection of course offerings: 
-doc.css(".post")
-
-title of an individual course offering:
-doc.css(".post").first.css("h2").text
-
-Schedule of individual course offering:
-doc.css(".post").first.css(".date").text
-
-Description of individual course offering:
-doc.css(".post").first.css("p").text
-
-
-
-doc.css(".post").first.css("h2").text
-
-doc.css(".post").first.css(".date").text
-
-doc.css(".post").first.css("p").text
